@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<services>
+	<service>
+		<service_code>001</service_code>
+		<service_name>Cans left out 24x7</service_name>
+		<description>Garbage or recycling cans that have been left out for more than 24 hours after collection. Violators will be cited.</description>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sanitation</group>
+	</service>
+	<service>
+		<service_code>002</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>street</group>
+		<service_name>Construction plate shifted</service_name>
+		<description>Metal construction plate covering the street or sidewalk has been moved.</description>
+	</service>
+	<service>
+		<service_code>003</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>street</group>
+		<service_name>Curb or curb ramp defect</service_name>
+		<description>Sidewalk curb or ramp has problems such as cracking, missing pieces, holes, and/or chipped curb.</description>
+	</service>
+	<service>
+		<service_code>004</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sanitation</group>
+		<service_name>Damaged city can</service_name>
+		<description>Damage to a city garbage receptacle such as missing parts (lid, door, liner) or other physical damage.</description>
+	</service>
+	<service>
+		<service_code>005</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sewer</group>
+		<service_name>Damaged side sewer vent cover</service_name>
+		<description>Damage to a side sewer vent cover with problems such as cracking, bending, rusting, or denting.</description>
+	</service>
+	<service>
+		<service_code>006</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>tree</group>
+		<service_name>Damaged tree</service_name>
+		<description>Damage to a city maintained tree. To check whether a tree is city maintained: http://bit.ly/6hsDk1.</description>
+	</service>
+	<service>
+		<service_code>007</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on bike rack - not offensive</service_name>
+		<description>Graffiti on a bike rack that does not contain racial slurs, profanity, or gang related language.</description>
+	</service>
+	<service>
+		<service_code>008</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on news rack - not offensive</service_name>
+		<description>Graffiti on a news rack that does not contain racial slurs, profanity, or gang related language .</description>
+	</service>
+	<service>
+		<service_code>009</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on parking meter - not offensive</service_name>
+		<description>Graffiti on a parking meter that does not contain racial slurs, profanity, or gang related language .</description>
+	</service>
+	<service>
+		<service_code>010</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on pay phone - not offensive</service_name>
+		<description>Graffiti on a pay phone that does not contain racial slurs, profanity, or gang related language.  .</description>
+	</service>
+	<service>
+		<service_code>011</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on private property - not offensive</service_name>
+		<description>Graffiti on a privately owned building or structure that does not contain racial slurs, profanity, or gang related language  .</description>
+	</service>
+	<service>
+		<service_code>012</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on private property - offensive</service_name>
+		<description>Graffiti on a privately owned building or structure that contains racial slurs, profanity, or gang related language .</description>
+	</service>
+	<service>
+		<service_code>013</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on public property - offensive</service_name>
+		<description>Graffiti on public property (building, pole, sidewalk, hydrant, etc) with racial slurs, profanity, or gang related language .</description>
+	</service>
+	<service>
+		<service_code>014</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on public property- not offensive</service_name>
+		<description>Graffiti on public property (building, pole, sidewalk, hydrant, etc) without racial slurs, profanity, or gang related language  .</description>
+	</service>
+	<service>
+		<service_code>015</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sanitation</group>
+		<service_name>Illegal dumping</service_name>
+		<description>Identify someone that has dumped or is dumping furniture or garbage onto the street or sidewalk. Violators will be cited .</description>
+	</service>
+	<service>
+		<service_code>016</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>landscaping</group>
+		<service_name>Landscaping request</service_name>
+		<description>Request maintenance on public property (except on park property) such as lawn mowing, bush or strip trimming and removal .</description>
+	</service>
+	<service>
+		<service_code>017</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>street</group>
+		<service_name>Missed route - mechanical sweeping</service_name>
+		<description>Street cleaning sweeper did not show up as scheduled according to the street cleaning signs .</description>
+	</service>
+	<service>
+		<service_code>018</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sewer</group>
+		<service_name>Missing side sewer vent cover</service_name>
+		<description>The 4 side sewer vent cover (http://bit.ly/57BlOv) is missing from the sidewalk  .</description>
+	</service>
+	<service>
+		<service_code>019</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sanitation</group>
+		<service_name>Overflowing city receptacle or dumpster</service_name>
+		<description>City receptacle is overflowing and/or has garbage on and around the container .</description>
+	</service>
+	<service>
+		<service_code>020</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>tree</group>
+		<service_name>Overgrown tree</service_name>
+		<description>Request that a city maintained tree (except on park property) be trimmed.  To check whether a tree is city maintained: http://bit.ly/6hsDk1 .</description>
+	</service>
+	<service>
+		<service_code>021</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>street</group>
+		<service_name>Pothole in Street</service_name>
+		<description>Defect on the street such as broken, cracked, and sinking asphalt or concrete .</description>
+	</service>
+	<service>
+		<service_code>022</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sewer</group>
+		<service_name>Sewage coming out of catch basin</service_name>
+		<description>Sewage or dirty water coming out of a catchbasin (located at the corner of intersections) .</description>
+	</service>
+	<service>
+		<service_code>023</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sewer</group>
+		<service_name>Water coming from side sewer</service_name>
+		<description>Sewage or odor coming out of a 4 side sewer (http://bit.ly/57BlOv) located on the sidewalk .</description>
+	</service>
+	<service>
+		<service_code>024</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sidewalk</group>
+		<service_name>Sidewalk cleaning</service_name>
+		<description>Have garbage or human waste removed from the sidewalk and/or request services such as steam cleaning of sidewalks .</description>
+	</service>
+	<service>
+		<service_code>025</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sidewalk</group>
+		<service_name>Sidewalk defect</service_name>
+		<description>Defect on the sidewalk such as broken, cracked, and/or sinking concrete .</description>
+	</service>
+	<service>
+		<service_code>026</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>street</group>
+		<service_name>Street cleaning</service_name>
+		<description>Request to have garbage or human waste removed from the street .</description>
+	</service>
+	<service>
+		<service_code>027</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>stree</group>
+		<service_name>Tree damaging property</service_name>
+		<description>Tree is damaging property (except for parks) or housing structure. City will address problem if it is a city maintained tree otherwise the property owner is notified to correct the issue .</description>
+	</service>
+	<service>
+		<service_code>028</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>water main</group>
+		<service_name>Water main break</service_name>
+		<description>Street is flooding due to water coming from within the asphalt or from a catchbasin .</description>
+	</service>
+	<service>
+		<service_code>029</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>graffiti</group>
+		<service_name>Graffiti on street sign</service_name>
+		<description>Graffiti on a street sign such as a stop sign, street name, and/or other parking and traffic signs .</description>
+	</service>
+	<service>
+		<service_code>030</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sewer</group>
+		<service_name>Odor coming from Side Sewer</service_name>
+		<description>Odor coming out of a 4 side sewer (http://bit.ly/57BlOv) located on the sidewalk.  .</description>
+	</service>
+	<service>
+		<service_code>031</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sewer</group>
+		<service_name>Sewage coming out of manhole cover</service_name>
+		<description>Sewage or dirty water coming out of a manhole cover (typically located in the a street or alley) .</description>
+	</service>
+	<service>
+		<service_code>032</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>sewer</group>
+		<service_name>Sewage coming out of sewer vent</service_name>
+		<description>Sewage or dirty water coming out of a sewer vent (located on the sidewalk) .</description>
+	</service>
+	<service>
+		<service_code>033</service_code>
+		<metadata>true</metadata>
+		<type>realtime</type>
+		<keywords>lorem, ipsum, dolor</keywords>
+		<group>street</group>
+		<service_name>Pothole in bike lane</service_name>
+		<description>Defect in the bike lane such as broken, cracked, and sinking asphalt or concrete.</description>
+	</service>
+</services>

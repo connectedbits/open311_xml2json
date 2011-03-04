@@ -1,0 +1,27 @@
+This project converts the Open311 v2 spec's sample XML to JSON using the parker method.
+
+== Requirements
+
+* ruby, rubygems, and bundler installed
+
+== Install
+
+To install:
+
+  bundle install
+
+== Usage
+
+	ruby xml2json.rb
+
+== Transform examples
+
+TODO:
+
+== Known issues
+
+See https://github.com//open311_xml2json/issues
+
+== Contributors
+
+Developed by Connected Bits, LLC.
