@@ -1,4 +1,7 @@
-This project converts the Open311 v2 spec's sample XML to JSON using the parker method.
+This project is a sandbox for Open311 GeoReport v2 XML to JSON API conversions using the parker convention.
+
+For more info on Open311 GeoReport: http://wiki.open311.org/GeoReport_v2
+For more info on the Parker Convention: http://code.google.com/p/xml2json-xslt/wiki/TransformingRules
 
 == Requirements
 
