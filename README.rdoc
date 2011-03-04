@@ -11,20 +11,34 @@ For more info on the Parker Convention: http://code.google.com/p/xml2json-xslt/w
 
 To install:
 
-  bundle install
+	bundle install
 
 == Usage
 
 	ruby xml2json.rb
 
-== Transform examples
+== Transform notes
 
-TODO:
+* Created a service-definition-fix.xml that adds a parent "attributes" node:
+
+https://github.com/connectedbits/open311_xml2json/blob/master/samples/xml/service-definition-fix.xml
+
+* The XSLT results will treat collections with 1 node vs multiple nodes differently. In practice we want to consistently return an [] for 0, 1, or many records:
+
+https://github.com/connectedbits/open311_xml2json/blob/master/samples/json/service-definition-fix.json
+
+* The XSLT drops the request node when returning a list of service requests:
+
+https://github.com/connectedbits/open311_xml2json/blob/master/samples/json/service-requests.json
 
 == Known issues
 
 See https://github.com//open311_xml2json/issues
 
-== Contributors
+== About
 
-Developed by Connected Bits, LLC.
+Developed by Connected Bits, LLC
+
+See parker/COPYRIGHT.txt for usage of the parker code.
+
+
